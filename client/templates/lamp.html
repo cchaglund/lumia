@@ -1,0 +1,14 @@
+<div class='container lamp p-1'>
+  <div class='row flex-column flex-sm-row'>
+    <div class='col-sm-8 d-flex flex-column order-2 order-sm-1'>
+      <h1>${this.name}</h1>
+      <p>${this.description}</p>
+      <div>
+        <input type="button" data-click="add" value='Köp för ${this.cost} kr' class="mb-1">
+      </div>
+    </div>
+    <div class='col-sm order-1 order-sm-2'>
+      <img src='${this.image}'>
+    </div>
+  </div>
+</div>

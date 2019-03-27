@@ -1,0 +1,14 @@
+<div class="d-flex align-items-center">
+  <div>
+    <p>${this.name}</p>
+  </div>
+  <div class="ml-auto d-flex align-items-center">
+    <div class="d-flex flex-column">
+      <i class="fas fa-caret-up mb-auto mr-1" data-click="addToBasket"></i>
+      <i class="fas fa-caret-down mt-auto mr-1" data-click="removeOne"></i>
+    </div>
+    <p class="mr-2"><span class="quantity p-1 border border-dark">${this.quantity}</span></p>
+    <p>${this.cost}</p>
+    <i class="fas fa-times-circle pl-1" data-click="removeAll"></i>
+  </div>
+</div>
